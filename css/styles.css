@@ -65,15 +65,21 @@ img {
    }
 
 /* Header */
-
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
+   
     padding-left: 15px;
     padding-right: 15px;
    
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -155,22 +161,13 @@ img {
 
 
 
-.container-authnav {
-    display: flex;
-     margin-left: auto;
-    
-
-}
 .auth-nav {
     display: flex;
     margin: 0;
     padding: 0;
+    margin-left: auto;
 }
-.auth-item {
-    padding-top: 32px;
-    padding-bottom: 32px;
 
-}
 .auth-nav .auth-item + .auth-item {
     margin-left: 50px;
 }
@@ -199,16 +196,11 @@ img {
 .hero {
     background-color:var(--secondary-bg-color);
     text-align: center;
-}
-
-.div-hero {
-    width: 1200px;
-    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
-
-   
 }
+
+
 .hero-title {
     color: var(--primery-whitecolor);
 
@@ -254,24 +246,20 @@ img {
     text-decoration: none;
 }
 
-.div-features {
-    display: flex;
-    justify-content: space-between;
+.section {
     
-    margin: 94px auto 94px;
-
-    width: 1200px;
-    padding: 0 15px;
-
+    padding-bottom: 94px;
 }
 
 .hidden-h2 {
     display: none;
 }
-
+.container-list {
+    padding-top: 94px;
+}
 .feature-list {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
   
 }
@@ -311,12 +299,6 @@ img {
 
 /* section title */
 
-.div-banner {
-
-    width: 1200px;
-    margin: 0 auto 94px;
-    padding: 0 15px;
-}
 
 .feature-img {
     margin: 0 ;
@@ -345,7 +327,7 @@ img {
     
     .container-bg {
     background-color: #F5F4FA;
-    padding: 94px 0;
+    padding-top: 94px;
 }
    
     .feature-img2 {
@@ -416,7 +398,7 @@ img {
         .footer {
             background-color:var(--secondary-bg-color);
             padding-top: 60px;
-            padding-bottom: 60px;;
+            padding-bottom: 60px;
         }
 
         .footer-logo {
@@ -470,19 +452,14 @@ img {
 
         /* portfolio.html */
    
+        .main-portfolio {
+            padding-top: 94px;
+        }
     
         .div-hidden {
             display: none;
         }
-        .div-portbut {
-            width: 1200px;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 94px;
-      
-        }
+        
 
         .buttons {
             margin: 0;
@@ -494,7 +471,7 @@ img {
             margin-left: 8px;
         }
 
-        .section-portfolio .buttons .list {
+        .section .buttons .list {
             color: var(--main-text-color);
 
             font-family: inherit;
@@ -521,13 +498,8 @@ img {
        
         /* main */
 
-        .portfolio-container {
-            width: 1200px;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-left: auto;
-            margin-right: auto;
-
+        .container-img {
+            padding-top: 50px;
         }
 
         .flex-element {
@@ -550,23 +522,22 @@ img {
             flex-wrap: wrap;
             margin: 0;
             padding: 0;
-            margin-top: 50px;
-            margin-bottom: 94px;
 
     
         }
 
-        .portfolio .portfolio-list {
+        .portfolio .portfolio-list{
             color: var(--main-text-color);
 
             font-weight: 700;
             font-size: 18px;
-            line-height: 2;
-
-            margin-left: 24px;
 
             letter-spacing: 0.06em; 
             text-decoration: none;    
+        }
+        
+        .flex-element .title {
+            margin-left: 24px;
         }
         .portfolio-list >img {
            
