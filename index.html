@@ -14,33 +14,29 @@
     <!-- Шапка сайта -->
     
            
-       <header class="page-header">
-        <div class="container">
-            
-              <div class="header-flex">
-                <nav class="main-nav">
-                    <a href="./index.html" class="logo" lang="en"><span class="blue-logo">Web</span>Studio</a>
-                    <ul class="site-nav">
-                         <li class="item"><a href="./index.html" class="site-nav studio">Студия</a></li>
-                         <li class="item"><a href="./portfolio.html" class="site-nav">Портфолио</a></li>
-                         <li class="item"><a href="" class="site-nav">Контакты</a></li>
-                    </ul>
-                       
-                </nav>
-            </div>
-                 <!-- Ссылки -->
-                <div class="container-authnav">
-                    <ul class="auth-nav">
-                        <li class="auth-item">  <a class="link" href="mailto:info@devstudio.com">info@devstudio.com
-                      </a>
-                          </li>
-                        <li class="auth-item"> <a class="link" href="tel:+380961111111">+38 096 111 11 11
-                      </a>
-                          </li>
-                </div>
-              </div>
-           
+       <header class="page-header container">
+        <div class="header-flex">
+            <nav class="main-nav">
+                <a href="./index.html" class="logo" lang="en"><span class="blue-logo">Web</span>Studio</a>
+                <ul class="site-nav">
+                     <li class="item"><a href="./index.html" class="site-nav studio">Студия</a></li>
+                     <li class="item"><a href="./portfolio.html" class="site-nav">Портфолио</a></li>
+                     <li class="item"><a href="" class="site-nav">Контакты</a></li>
+                </ul>
+                   
+            </nav>
         </div>
+             <!-- Ссылки -->
+            <div class="container-authnav">
+                <ul class="auth-nav">
+                    <li class="auth-item">  <a class="link" href="mailto:info@devstudio.com">info@devstudio.com
+                  </a>
+                      </li>
+                    <li class="auth-item"> <a class="link" href="tel:+380961111111">+38 096 111 11 11
+                  </a>
+                      </li>
+            </div>
+           </div>
         </header>   
   
     
@@ -58,11 +54,13 @@
     <section class="section">
         
        <div class="div-features">
+         
+        <div class="hidden-h2">
+            <li><h2>Особенности</h2></li>
+        </div>
+        
         <ul class="feature-list">
-            
-            <div class="hidden-h2">
-                <li><h2>Особенности</h2></li>
-            </div>
+           
          <li class="neighbours">
                 <h3 class="title">Внимание к деталям</h3>
             <p class="title-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -88,17 +86,17 @@
         <div class="div-banner">
             <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="feature-img">
-            <li><img src="./images/our-spesialize1.jpg" alt="руки на клавиатуре перед планшетом" width="370" class="section-img">
+            <li class="item-img"><img src="./images/our-spesialize1.jpg" alt="руки на клавиатуре перед планшетом" width="370" class="section-img">
             </li>
-            <li><img src="./images/our-spesialize2.jpg" alt="ноутбук и смартфон" width="370" class="section-img">
+            <li class="item-img"><img src="./images/our-spesialize2.jpg" alt="ноутбук и смартфон" width="370" class="section-img">
             </li>
-            <li><img src="./images/our-spesialize3.jpg" alt="планшет с шестиугольником" width="370" class="section-img">
+            <li class="item-img"><img src="./images/our-spesialize3.jpg" alt="планшет с шестиугольником" width="370" class="section-img">
             </li>
         </ul>
       </div>
+    </section>
       
-     <div class="container-bg">
-
+    <section class="section container-bg">
         <div class="div-banner">
 
             <h2 class="section-title2">Наша команда</h2>
@@ -127,10 +125,8 @@
                 
             
             </ul>
-        </div>
+    </section>
 
-     </div>
-</section>
     </main>
 
     <footer class="footer">

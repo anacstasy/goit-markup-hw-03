@@ -45,6 +45,10 @@ html {
     box-sizing: inherit;
 }
 
+img {
+    display: block;
+}
+
 /* index.html */
 
 
@@ -83,6 +87,7 @@ html {
 .logo {
     padding-top: 24px;
     padding-bottom: 25px;
+    margin-right: 93px;
     
     color: var(--main-text-color);
     font-family: Raleway, sans-serif;
@@ -121,9 +126,6 @@ html {
 
 }
 
-.site-nav .studio {
- margin-left: 93px;   
-}
 
 .site-nav .port-studio {
  margin-left: 93px;     
@@ -162,6 +164,7 @@ html {
 .auth-nav {
     display: flex;
     margin: 0;
+    padding: 0;
 }
 .auth-item {
     padding-top: 32px;
@@ -174,6 +177,8 @@ html {
 
 .auth-nav .link {
     color: var(--secondary-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     font-weight: 500;
     font-size: 14px;
@@ -198,7 +203,7 @@ html {
 
 .div-hero {
     width: 1200px;
-    margin: 0 auto 94px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
 
@@ -243,6 +248,7 @@ html {
 
 /* feature-list */
 
+
 .auth-nav, .feature-list, .feature-img, .footer-nav, .buttons, .portfolio, .feature-img2 {
     list-style-type: none;
     text-decoration: none;
@@ -252,7 +258,7 @@ html {
     display: flex;
     justify-content: space-between;
     
-    margin: 0 auto 94px;
+    margin: 94px auto 94px;
 
     width: 1200px;
     padding: 0 15px;
@@ -291,8 +297,11 @@ html {
 
 }
 .feature-list .title-description {
+    margin: 0;
+    padding: 0;
 
     color: var(--secondary-text-color);
+
 
     font-weight: 400;
     line-height: 24px;
@@ -315,9 +324,11 @@ html {
     display: flex;
     justify-content: space-between;
 }
-.section-img {
-    display: block;
+
+.item-img +.item-img {
+    margin-left: 30px;
 }
+
 
 .section .section-title {
     color: var(--main-text-color);
@@ -363,7 +374,7 @@ html {
 
     .feature-img2 .section-img2, .feature-description {
         margin-bottom: 30px;
-        display: block;
+        
     }
     
      .section-title2 {
@@ -558,7 +569,7 @@ html {
             text-decoration: none;    
         }
         .portfolio-list >img {
-            display: block;
+           
             margin-bottom: 20px;
         }
         .portfolio .list-title {
