@@ -471,9 +471,6 @@ img {
 
 /* main */
 
-.container-img {
-  padding-top: 50px;
-}
 
 .flex-element {
   width: 370px;
@@ -493,6 +490,8 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+
+  padding-top: 50px;
 }
 
 .portfolio .portfolio-list {
