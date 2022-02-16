@@ -36,6 +36,8 @@ web color #2196F3 */
 
 img {
   display: block;
+  min-width: 100%;
+  height: auto;
 }
 
 /* index.html */
@@ -494,10 +496,15 @@ img {
 }
 
 .portfolio .portfolio-list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4px;
+
   color: var(--main-text-color);
 
   font-weight: 700;
   font-size: 18px;
+  line-height: 2em;
 
   letter-spacing: 0.06em;
   text-decoration: none;
@@ -511,6 +518,9 @@ img {
     border-bottom: 1px solid var(--border-portfolio-color);
 }
 .portfolio .list-title {
+    margin: 0;
+    padding: 0;
+
   color: var(--secondary-text-color);
 
   font-weight: 400;
