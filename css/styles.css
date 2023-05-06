@@ -56,13 +56,15 @@ button {
 /* Header container */
 
 .container {
-  display: flex;
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
 }
 
+.flex {
+  display: flex;
+}
 .main-header {
   display: flex;
 
@@ -170,6 +172,9 @@ button {
   margin-right: 40px;
 }
 
+.auth-nav-container {
+  padding: 24px 0;
+}
 .auth-nav .link:hover,
 .auth-nav .link:focus,
 .footer-nav .link:hover,
@@ -178,11 +183,12 @@ button {
 }
 
 /* hero */
+.main {
+  padding: 188px 0;
+}
 
 .hero {
   background-color: var(--main-bg-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 .hero-title {
   color: var(--primery-whitecolor);
@@ -195,7 +201,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
 
-  width: 496px;
+  max-width: 496px;
   height: 120px;
 
   margin-left: auto;
@@ -211,7 +217,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
 
-  display: flex;
+  display: block;
   align-items: center;
   letter-spacing: 0.04em;
   text-align: center;
