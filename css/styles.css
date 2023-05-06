@@ -233,10 +233,12 @@ button {
 }
 
 /* feature-list */
+.feature-section {
+  padding: 120px 0;
+}
 
 .feature {
   display: flex;
-  padding: 120px 0 120px 0;
 }
 
 .box {
