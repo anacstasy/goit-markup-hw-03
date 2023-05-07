@@ -88,6 +88,7 @@ button {
   color: #4d5ae5;
 
   margin-right: 76px;
+  margin-bottom: 16px;
 }
 
 .main-logo {
@@ -391,7 +392,6 @@ button {
   display: block;
   width: 264px;
   height: 72px;
-  margin-top: 17.5px;
 }
 
 /* portfolio.html */
@@ -435,7 +435,9 @@ button {
 }
 
 /* main */
-
+.section {
+  padding: 96px 0 120px;
+}
 .portfolio-container {
   margin-left: 156px;
   margin-right: 156px;
