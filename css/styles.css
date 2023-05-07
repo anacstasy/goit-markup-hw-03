@@ -354,6 +354,8 @@ button {
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
+
+  margin-bottom: 8px;
 }
 
 .list-description {
@@ -365,8 +367,6 @@ button {
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
-
-  margin-top: 8px;
 }
 
 /* footer */
