@@ -59,7 +59,8 @@ button {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .flex {
@@ -88,6 +89,9 @@ button {
   color: #4d5ae5;
 
   margin-right: 76px;
+}
+
+.logo-item {
   margin-bottom: 16px;
 }
 
