@@ -404,10 +404,9 @@ button {
 .buttons {
   display: flex;
   justify-content: center;
-}
+  gap: 24px;
 
-.button-container:not(:first-child) {
-  margin-left: 24px;
+  margin-bottom: 72px;
 }
 
 .buttons-item {
@@ -428,6 +427,10 @@ button {
   border-radius: 4px;
 }
 
+.buttons-item:hover,
+.buttons-item:focus {
+  border: 1px solid transparent;
+}
 .buttons .list:hover,
 .buttons .list:focus {
   color: var(--primery-whitecolor);
@@ -449,8 +452,8 @@ button {
   flex-wrap: wrap;
 }
 
-.portfolio-cards:not(:nth-last-of-type(3n + 1)) {
-  margin-right: 24px;
+.portfolio-cards {
+  width: calc((100%-48px) / 3);
 }
 
 .portfolio-cards:not(:nth-last-child(-n + 3)) {
@@ -460,8 +463,6 @@ button {
 .portfolio-cards {
   min-width: 360px;
   min-height: 420px;
-
-  border: 1px solid #e7e9fc;
 }
 
 .portfolio-item {
@@ -473,9 +474,8 @@ button {
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
-  margin-left: 16px;
-  margin-right: auto;
-  margin-top: 32px;
+
+  margin-bottom: 8px;
 }
 .portfolio .list-title {
   font-family: 'Roboto', sans-serif;
@@ -488,4 +488,10 @@ button {
 
   margin-top: 8px;
   margin-left: 16px;
+}
+
+.add-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
