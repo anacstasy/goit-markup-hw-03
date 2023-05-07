@@ -59,6 +59,7 @@ button {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 
 .flex {
@@ -67,7 +68,6 @@ button {
 }
 .main-header {
   display: flex;
-  padding: 0 15px;
 
   border-bottom: 1px solid #e7e9fc;
 }
@@ -109,9 +109,6 @@ button {
 }
 
 /*  Site nav */
-.main-header {
-  display: flex;
-}
 
 .page-nav {
   display: flex;
@@ -132,6 +129,8 @@ button {
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
+
+  padding: 24px 0;
 }
 
 .menu-link:hover,
