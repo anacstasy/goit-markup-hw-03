@@ -294,6 +294,9 @@ button {
   display: flex;
 }
 
+.img-item {
+  width: calc((100% - 48px) / 3);
+}
 .img-item:not(:last-child) {
   margin-right: 24px;
 }
@@ -325,7 +328,7 @@ button {
   display: flex;
 }
 
-.cards:not(last-child) {
+.cards:not(:last-child) {
   margin-right: 24px;
 }
 .cards {
@@ -334,9 +337,11 @@ button {
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 
-  min-width: 264px;
-  min-height: 380px;
-  padding-bottom: 32px;
+  width: calc((100%-72px) / 4);
+}
+
+.masters-description {
+  padding: 32px 16px;
 }
 
 .title-master {
@@ -349,8 +354,6 @@ button {
   letter-spacing: 0.02em;
 
   color: var(--main-text-color);
-
-  margin-top: 32px;
 }
 
 .list-description {
