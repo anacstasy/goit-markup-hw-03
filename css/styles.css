@@ -303,6 +303,7 @@ button {
 }
 .section-workers {
   background-color: var(--secondary-bg-color);
+  padding: 120px 0;
 }
 
 .title-team {
@@ -316,23 +317,16 @@ button {
   text-transform: capitalize;
 
   color: var(--main-text-color);
-}
 
-.container-not-flex {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding: 120px 0 120px 0;
+  margin-bottom: 72px;
 }
 
 .cards-list {
   display: flex;
-  margin-top: 72px;
 }
 
 .cards:not(last-child) {
-  margin-left: 24px;
+  margin-right: 24px;
 }
 .cards {
   background-color: var(--primery-whitecolor);
