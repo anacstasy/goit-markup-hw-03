@@ -145,7 +145,9 @@ button {
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
-
+.menu-item {
+  padding: 24px 0;
+}
 /* Site nav page 1-2 */
 
 .contact-link {
@@ -171,7 +173,9 @@ button {
 .auth-nav-container:not(:last-child) {
   margin-right: 40px;
 }
-
+.auth-nav-container {
+  padding: 24px 0;
+}
 .auth-nav .link:hover,
 .auth-nav .link:focus,
 .footer-nav .link:hover,
